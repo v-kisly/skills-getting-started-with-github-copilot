@@ -94,7 +94,7 @@ class TestRootEndpoint:
         assert response.headers["location"] == "/static/index.html"
 
 
-class TestGetActivities:
+class TestActivitiesEndpoint:
     """Tests for the GET /activities endpoint"""
     
     def test_get_all_activities(self, client):
